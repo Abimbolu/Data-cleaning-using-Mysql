@@ -21,7 +21,6 @@ Employee data: The primary dataset used for this analysis is the 'employee.csv' 
 
 - Excel - Data Preview
 - SQL -Data Cleaning
-- Power Bi - creating visualization
 
 ### Data Cleaning
 In the data preparation phases, i perfomed the following tasks;
