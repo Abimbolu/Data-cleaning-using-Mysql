@@ -14,12 +14,15 @@
 
 This data analysis project aims to provides insights about the employee's in the company. By cleaning and analyzing various aspects of this dataset, i seek to identify trends, make data driven recommendations and gain a depper understanding on the company and it's employees.
 
+
+
+
 ### Data Source
 Employee data: The primary dataset used for this analysis is the 'employee.csv' file, containing detailed information about each employee in the company.
 
 ### Tools
 
-- Excel - Data Preview
+- Excel - Data Preview and dashboard
 - SQL -Data Cleaning
 
 ### Data Cleaning
@@ -123,7 +126,7 @@ select AVG(`bonus_%`), job_title
 	FROM employee
     GROUP BY job_title
     order by AVG(`bonus_%`) DESC
-    LIMIT 5;
+    LIMIT 6;
     
 -- 4) Annual Salary per Age bracket
 Select 
@@ -160,7 +163,7 @@ SELECT *,  CEIL(DATEDIFF(COALESCE(exit_date, curdate()), hire_date)/ 365) AS yea
 The analysis results are summarized as follows;
 - Vice president, Director, Sr. Manager, Manager, Sr. Analyst are the top 5 highest average salary
 - There are more females in three out of four business units
-- Vice presidents, Director, Sr. Manager, Engineer Manager and Computer Systens Manager have the highest bonus rate
+- Vice presidents, Director, Sr. Manager, Engineer Manager,manager and Computer Systens Manager have the highest bonus rate
 - Young (< 30 years) , middle age(>= 30 < 50) and old(> 50)
 - There are 1000 employees
 - Black, Latino, Caucasian and Asian accordingly
