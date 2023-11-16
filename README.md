@@ -22,8 +22,10 @@ Employee data: The primary dataset used for this analysis is the 'employee.csv' 
 
 ### Tools
 
-- Excel - Data Preview and dashboard
-- SQL -Data Cleaning
+- SQL
+  - Data preparation
+  - Data cleaning
+  - Data Analysis
 
 ### Data Cleaning
 In the data preparation phases, i perfomed the following tasks;
